@@ -1,6 +1,6 @@
 WebApp, online manga viewer with subscription Personal project
 
-This project is the frontend part of my personal project which will be created with React. 
+This project is the frontend part of my personal project which ist created with React. 
 In frontend and backend node.js will be used with graphql and mongoDB
 
 technologies used in the project ES6 React,vite,Sass,html5, React router dom.
