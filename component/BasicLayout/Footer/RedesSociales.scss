@@ -1,0 +1,26 @@
+@import '../../../src/scss/main.scss';
+
+.redessoaciales{
+    padding: 36px;
+    img{
+        width:220px;
+    }
+
+    .LogosOrganizar{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: 20px;
+.imagen1{
+
+    width: 60px;
+    transition: 300ms;
+
+    &:hover{
+        transform:skew(10deg);
+    }
+
+
+}
+    }
+}

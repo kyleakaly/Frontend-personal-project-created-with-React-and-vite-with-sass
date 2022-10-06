@@ -1,0 +1,29 @@
+@import '../../../../src/scss/main.scss';
+
+
+.Likes{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    p{
+        text-align: left;
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        color: black;
+    }
+
+    .imagenOrganizar{
+
+        width: 30px;
+        height: 30px;
+    
+    }
+
+}
+
+
+

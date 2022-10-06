@@ -1,0 +1,130 @@
+@import '../../src/scss/main.scss';
+
+.contenidoNoSiPremiun{
+
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+    .tendraTodoElContenido{
+
+        .menudevolver{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            background-color: black;
+            width: 100%;
+            margin-bottom: 60px;
+
+            a{
+
+                padding: 10px;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-decoration: none;
+                color: white;
+                
+
+
+                span{
+                    color: white;
+                }
+    
+                p{
+                    color: white;
+                }
+
+            }
+
+            .compartir{
+                .compartirr{
+                    color: white;
+                    padding: 10px;
+                }
+            }
+
+          
+
+        }
+
+    }
+
+    .sliderImagenes{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        padding-top: 44px;
+
+        .imagenslider{
+
+width: 100%;
+min-height: 300px;
+max-height: 1000px;
+object-fit: cover;
+
+        }
+
+    }
+    
+
+    .menuabajo{
+        position: fixed;
+        bottom: 0;
+        height: 44px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .todoelcontenido{
+
+
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            width: 100%;
+
+            .siguienteAnterior{
+
+                display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 10px;
+
+            }
+
+            .listadecapitulos{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                .linea1{
+
+                    width: 40px;
+                    height: 2px;
+                    background-color: white;
+                    margin: 2px 0;
+                    line-height: 40px;
+
+                }
+            }
+
+        }
+
+    }
+
+}

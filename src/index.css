@@ -1,0 +1,265 @@
+
+:root {
+
+  --color-Tirulos:black;
+  --color-Parrafos : #e2e2e2 ;
+
+  /*
+  colores definitivos para la pagina web
+  */
+
+  --color-azul-oscuro: #5086c1;
+  --color-azul-oscuro-claro:#6a9eda;
+  --color-azul-oscuro-masclasro:#84b6f4;
+  --color-azul-morado:#b2dafa;
+  --color-azul-grisaseo:#dcffff;
+
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p,a,span,label,input {
+  font-family: 'Nunito', sans-serif;
+
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  height: 80px;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  
+
+}
+
+.nav ul.menuPrincipal{
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+
+}
+
+.nav ul.menuPrincipal li{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  transition: 200ms;
+  padding: 10px;
+  
+
+}
+
+.nav ul.menuPrincipal li:hover{
+
+  transform: translateX(10px);
+  cursor: pointer;
+  
+
+}
+
+.nav ul.menuPrincipal li a {
+
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.nav ul.menuPrincipal li a:hover {
+
+color: var(--color-azul-oscuro) ;
+
+
+}
+
+
+.pequenaimagenlogomenuprincipal{
+  width: 20px;
+  height: 20px;
+
+}
+
+
+/* menu de unicio */
+
+.menuInicio{
+
+  margin-top: 40px;
+
+}
+
+.menuInicio ul{
+  
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+
+
+}
+
+.menuInicio ul li{
+
+  list-style: none;
+  border: 1px solid black;
+  border-radius:10px ;
+  z-index: 1;
+  background-color: white;
+
+}
+
+.menuInicio ul li a img{
+ 
+  height: 80px;
+  width: 80px;
+  transition: 200ms;
+
+}
+
+.menuInicio ul li a img:hover{
+
+transform: rotate(-3deg);
+
+}
+
+.slider{
+overflow-x: hidden ;
+
+}
+
+.slider .flexSlider {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+
+}
+
+.slider .flexSlider ul {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+
+}
+
+
+
+
+.inicio .flexSlider ul li .imagenSlider{
+width: 640px;
+min-height: 220px;
+max-height: 320px;
+object-fit: cover;
+border: 1px solid black;
+}
+
+.slider1{
+  flex-basis: 320px;
+  flex-grow: 2;
+  height: 400px;
+
+}
+
+.inicio .imagenSlider:nth-child(1),.inicio .imagenSlider:nth-child(3){
+
+  opacity: 0.8;
+
+}
+
+
+.CategoriasInicio{
+  width: 100%;
+  margin-top: 16px;
+  padding-left: 10px;
+  
+}
+
+
+
+.organizarCategorias{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 2px;
+  margin-top: 6px;
+  width: auto;
+  color: black;
+
+}
+
+.categoriasInicios .linea{
+
+  background-color: var(--color-azul-oscuro);
+  height: 0.5px;
+  margin-top: 8px;
+margin-left: 12px;
+  width: 98%;
+
+}
+
+.organizarCategorias a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: 200ms;
+  font-weight: 400;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+
+}
+
+.organizarCategorias a:nth-child(1){
+  color:#8f7193 ;
+  font-size: 16px;
+}
+
+.organizarCategorias a:hover{
+
+  color: var(--color-azul-oscuro);
+  transform: scale(1.1);
+  padding: 0px 2px;
+
+}
+
+.categoriasInicios h3 {
+
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.todoElcontenidoDeBusquedas{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ecf2ff;
+  margin-top:12px;
+
+}

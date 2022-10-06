@@ -1,0 +1,113 @@
+@import '../../../src/scss/main.scss';
+
+.contenidocompleto{
+
+  border-radius: 30px 30px 0px 0px;
+    
+
+    h2{
+        font-weight: 400;
+        text-align: center;
+        padding-top:6px ;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 4px;
+        color: $color-azul-oscuro;
+    }
+
+    .arreglarcontenidoconimagen{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+
+        .imagengrande{
+            width: 400px;
+            filter: drop-shadow(5px 5px 5px #222);
+          
+        }
+
+        .organizarlosdiv{
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .separacion4Contenidos{
+
+            display: flex;
+            flex-direction: column;
+            grid-auto-rows: auto;
+            width: 100%;
+            overflow-y: scroll;
+            height: 71vh;
+            padding: 20px;
+            background-color: white;
+            padding-bottom: 20px;
+           
+            
+            
+
+            .contenidonumero1{
+                
+                width: 100%;
+                height: 100%;
+
+                .organizarlinea{
+
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    width: 100%;
+                    padding-top: 20px;
+
+                    .linea{
+                        height: 1px;
+                        background-color: $color-azul-oscuro;
+                        width: 50%;
+                        margin: 36px 0px 36px 0px;
+    
+                    }
+
+                }
+
+                
+               
+            }
+          
+
+            .contenidotexto{
+                margin-bottom: 10px;
+            }
+
+        }
+    
+        ::-webkit-scrollbar{
+            display: none;
+            
+        }
+    
+        }
+
+    }
+
+    
+@media only screen and (max-width: 767px){
+
+    .contenidonumero1organizar {
+
+    .cajas{
+
+        width: 100%!important;
+
+    }
+}
+
+}
+

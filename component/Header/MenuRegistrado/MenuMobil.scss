@@ -1,0 +1,102 @@
+@import '../../../src/scss/main.scss';
+
+.menumobil{
+
+    display: flex;
+    flex-direction: column;
+  
+
+    .hamburguesa{
+
+        z-index: 2;
+        cursor: pointer;;
+
+        .linea1,.linea2,.linea3{
+
+            background-color: black;
+            height: 2px;
+            width: 30px;
+            margin: 6px 0px;
+        transition: 1s;
+
+
+        }
+
+      
+
+    }
+
+    .hamburnegro{
+        
+       z-index: 9999;
+       
+       .linea1{
+        transform: rotate(360deg);
+       }
+
+       .linea2{
+        transform: rotate(360deg);
+    }
+
+    .linea3{
+        transform: rotate(360deg);
+    }
+
+    }
+
+    .organizarMenu{
+
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        height: 0px;
+        transition: 1s;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .mobilmenu{
+            list-style: none;
+
+            a{
+
+                text-decoration: none;
+                color:black;
+                
+
+            }
+        }
+
+    }
+
+    .abrirmenu{
+
+        height: 100vh;
+
+    }
+
+    .redesSociales{
+
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 100%;
+list-style: none;
+position: relative;
+    top: 40px;
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+    }
+
+}

@@ -1,0 +1,121 @@
+@import '../../src/scss/main.scss';
+
+.noticias{
+
+    width: 100%;
+    background-color: white;
+    height: 60vh;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorNoticias{
+        width: 90%;
+        color: #e2e2e2;
+        margin: 0px auto;
+
+        h1{
+            color: black;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+
+        .contenedornoticiasindividual{
+
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+
+
+            .cajasNoticias{
+
+                width: 600px;
+                padding: 20px;
+                border: 1px solid black;
+                color: black;
+
+                h2{
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+
+                .informaciongeneral{
+
+                    display: flex;
+                    flex-direction: row-reverse;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    p{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    .fecha{
+                        padding: 4px;
+                    
+                        text-align: right;
+                        
+                    }
+
+                }
+
+               
+
+                button{
+                    background-color: #5ea6ff;
+                    border: none;
+                    padding: 10px;
+                    color: white;
+                    cursor: pointer;
+                    transition: 200ms;
+
+                    &:hover{
+
+                        transform: translateX(10px);
+                        color: black;
+
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 767px){ 
+
+    .noticias{
+
+        width: 100%;
+        height: 100%;
+        overflow: visible!important;
+        padding-top: 60px!important;
+
+    }
+
+}
+
+
+@media only screen and (max-height: 900px){ 
+
+    .contenidocompleto .arreglarcontenidoconimagen .separacion4Contenidos{
+
+        height: 81vh!important;
+
+    }
+}

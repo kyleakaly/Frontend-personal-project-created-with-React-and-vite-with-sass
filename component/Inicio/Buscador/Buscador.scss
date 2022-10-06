@@ -1,0 +1,40 @@
+@import '../../../src/scss/main.scss';
+.inicio .CategoriasInicio.otromas{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.organizaresto{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+
+    button{
+        display: none;
+    }
+}
+
+.inputbuscar{
+border:1px solid  $color-azul-oscuro ;
+padding: 6px;
+border-radius: 10px;
+height: 26px;
+
+&:focus-visible{
+    outline: none!important;
+}
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  
+}
+
+

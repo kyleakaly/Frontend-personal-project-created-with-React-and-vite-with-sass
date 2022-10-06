@@ -1,0 +1,142 @@
+
+  $color-azul-oscuro: #5086c1;
+  $color-azul-oscuro-claro:#6a9eda;
+  $color-azul-oscuro-masclasro:#84b6f4;
+  $color-azul-morado:#b2dafa;
+  $color-azul-grisaseo:#dcffff;
+*{
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 767px){ 
+
+  .nav{
+
+    height: 60px!important;
+    position: fixed;
+    z-index: 999999;
+
+    a{
+
+      img{
+
+        height: 40px!important;
+    width: auto!important;
+    padding: 0!important;
+
+    }
+
+    }
+
+  
+
+      .menuPrincipal{
+
+        display: none!important;
+
+      }
+
+
+    .menuInicio{
+
+      margin-top: 0px;
+
+      ul{
+
+        li{
+
+          a {
+
+            img {
+
+              height: 40px;
+    width: 40px;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+  .inicio{
+    padding-top: 60px;
+
+    .CategoriasInicio.otromas {
+      
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+
+
+        .organizaresto{
+
+          width: 100%;
+
+          span{
+
+            position: relative;
+    left: 28px;
+    top: 2px;
+          
+          }
+
+          .inputbuscar{
+
+            width: 100%;
+            text-align: left;
+            padding-left: 30px;
+
+            &::placeholder{
+              text-align: center;
+            }
+
+          }
+
+        }
+  
+      
+    }
+
+  }
+  
+  .todoElcontenidoDeBusquedas{
+
+    background-color: white!important;
+    margin-top: 0;
+
+    .arreglarcontenidoconimagen{
+
+      flex-direction: column;
+
+      .imagengrande{
+
+        width: 200px;
+
+      }
+
+      .separacion4Contenidos{
+
+        overflow: none;
+        height: 100%;
+
+        .contenidonumero1organizar{
+
+          flex-direction: column!important;
+
+        }
+      }
+
+    }
+
+  }
+
+
+
+}
